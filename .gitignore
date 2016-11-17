@@ -1,0 +1,9 @@
+# Ignore Python Stuff
+*.pyc
+src/*.pyc
+*~
+src/*~
+*__pycache__/*
+
+#Other stuff
+web/*.html

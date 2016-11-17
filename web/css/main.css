@@ -1,0 +1,187 @@
+body {
+    padding: 0;
+    margin: 0;
+    /*overflow-x: hidden;*/
+}
+
+.modal-dialog {width:600px;}
+.thumbnail {margin-bottom:6px;}
+
+/*header {
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-right: 20px;
+    width: 100%;
+    height: 100px;
+    background-color: #37a7ed;
+}*/
+
+.header {
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-right: 20px;
+    width: 100%;
+    height: 100px;
+    background-color: #37a7ed;
+}
+
+.empty {
+    height: 10px;
+    padding-bottom: 10px;
+    margin-top: -5px;
+    background-color: #454545;
+}
+
+.emptyBot {
+    height: 10px;
+    padding-bottom: 10px;
+    background-color: #37a7ed;
+    margin-top: 20px;
+}
+
+.pushRight {
+    text-align: right;
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: #454545;
+}
+
+footer h3 {
+    float: right;
+    padding-top: 10px;
+    padding-right: 30px;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 3em;
+    letter-spacing: 1em;
+    text-indent: 1.5em;
+    color : white;
+}
+
+.inner {
+    margin: 150px auto;
+    width: 60%;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-size: 4em;
+    padding-bottom: 50px;
+}
+
+h3 {
+    padding-top: 30px;
+    font-size: 2em;
+}
+
+p {
+    padding: 10px 0;
+    font-size: 1.2em;
+    color: #3e3e3e;
+}
+
+ul li {
+    font-size: 1.5em;
+    color: #3e3e3e;
+}
+
+table {
+    font-size: 1.2em;
+}
+
+#button {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#button a {
+    padding: 30px 80px;
+    color: white;
+    background-color: #37a7ed;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+#button a:hover {
+    background-color: #2C85BD;
+}
+
+#removePadding {
+    padding-bottom: 0px;
+}
+
+
+.scrollToTop{
+    width:100px; 
+    height:50px;
+    padding:10px; 
+    text-align:center; 
+    /*background: whiteSmoke;*/
+    font-weight: bold;
+    color: #454545;
+    text-decoration: none;
+    position:fixed;
+    /*top:75px;*/
+    bottom:75px;
+    right:40px;
+    display:none;
+    font-size: 5em;
+}
+.scrollToTop:hover{
+    text-decoration:none;
+}
+
+@media screen and (max-width: 930px) {
+    h1 {
+        font-family: sans-serif;
+        font-size: 2em;
+        letter-spacing: 0.3em;
+        text-indent: 1.5em;
+        color : white;
+        padding-top: 5px;
+    }
+    .inner {
+        margin: 0px auto;
+        width: 90%;
+    }
+
+    h3 {
+        font-size: 1.7em;
+    }
+
+    .empty {
+        margin-bottom: 20px;
+    }
+
+    tr th {
+        font-size: 0.7em;
+    }
+    
+    tr td {
+        font-size: 0.7em;
+    }
+    
+    #button a {
+    padding: 25px 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-family: sans-serif;
+        font-size: 1.8em;
+        letter-spacing: 0.3em;
+        text-indent: 1.5em;
+        color : white;
+        padding-top: 5px;
+    }
+
+    #button a {
+    	padding: 25px 10px;
+    }
+}

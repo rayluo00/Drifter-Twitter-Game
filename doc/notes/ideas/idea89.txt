@@ -1,0 +1,14 @@
+
+The game setting is that you are a member of the crew of a derelict spacecraft. The captain is dead, and you are lost. You are an unknown, random distance from Home. The object of the game is to reach home. The spacecraft has just enough energy to reach the nearest planet, and there is always the option to drift in space in chryostasis sustained by solar sails. The initial object of the game is to determine orientation and know the direction to head Home, then to head in that directions until reaching it. Each round consists of an event, which will affect the current state of the game, based on the outcome of the vote.
+Events are: entering a system, landing on a planet , contacting other people (on a planet or in another ship), ...
+when entering a system: options are to head to a select planet in the system (if sufficient fuel), continue toward Home (if known), or drift.
+When landing on a planet: options depend on planet type which is random if drifting, or otherwise selected via vote on entering system (thus also costing fuel).
+If planet is barren: options are explore or leave.
+if planet has resource: options are gather, explore, leave.
+if planet has people: options include contact, fight, explore, leave.
+if planet has special: options include special additional options...
+When contacting people: options are trade, fight, flee, play (aka gamble, minigame?)
+
+The ship has fuel, cargo (with worth), distance from Home, time spent getting Home.
+Score is proportional to cargo worth and initial distance and inversely proportional to time spent getting home.
+Keep track of high score, and top 10--or whatever--contributors.
